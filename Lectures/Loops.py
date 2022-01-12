@@ -20,3 +20,11 @@ for name in names:
 if not flag:
     print("Not found")
 
+#Guess Game (while loop application)
+guess_number = 0
+answer = 5
+
+while answer != guess_number:
+    guess_number = int(input("Enter Guess = ")) #int is the type coeertion used to conver the user imput to string
+else:
+    print("Correct number guessed") # this is used when the while loop runs successfully with no break statement

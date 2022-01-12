@@ -8,3 +8,15 @@ for q in ['a','b','c']:
 for x in range(0,10,2): #range function has 3 arguments start no, end no and step if step is 2 it prints even numbers
     print(x) # range doesnt return a list
 
+#flag technique
+names = ["Ahon","Mary"]
+flag = False
+for name in names:
+    if name.startswith("J"):
+        print("Found")
+        flag = True
+        break
+
+if not flag:
+    print("Not found")
+
